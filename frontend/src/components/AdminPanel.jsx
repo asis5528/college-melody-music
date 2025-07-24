@@ -3,6 +3,7 @@ import { loadCustomSongs, saveCustomSongs } from './data';
 
 const emptySong = { title: '', artist: '', genre: '', moods: '', url: '', cover: '' };
 
+
 export default function AdminPanel({ onBack }) {
   const [songs, setSongs] = useState(loadCustomSongs());
   const [form, setForm] = useState(emptySong);
@@ -30,8 +31,10 @@ export default function AdminPanel({ onBack }) {
     if (!form.title || !form.url) return;
     const newSong = {
       ...form,
+
       id: `C${String(idCounter).padStart(3, '0')}`,
       moods: form.moods.split(',').map(m => m.trim()).filter(Boolean)
+
     };
     setSongs([...songs, newSong]);
     setIdCounter(idCounter + 1);
@@ -51,6 +54,7 @@ export default function AdminPanel({ onBack }) {
       </button>
 
       <form onSubmit={addSong} className="space-y-2 max-w-md mt-4">
+
         {['title','artist','genre','moods','url','cover'].map(field => (
           <input
             key={field}
