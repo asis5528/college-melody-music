@@ -26,8 +26,7 @@ def extract_features(file_path):
     mfcc = mfcc_transform(waveform)  # (1, 20, time)
     mfcc_mean = mfcc.mean(dim=2).squeeze().cpu().numpy()  # shape: (20,)
 
-    return mfcc_mean.tolist()  # You can add more GPU features later
-
+    return mfcc_mean.tolist()  
 # Extract
 for fname in os.listdir(SONG_FOLDER):
     if fname.endswith(".mp3"):
@@ -36,9 +35,9 @@ for fname in os.listdir(SONG_FOLDER):
             vec = extract_features(path)
             vectors.append(vec)
             songs.append({"filename": fname, "features": vec})
-            print(f"✅ {fname}")
+            print(f"{fname}")
         except Exception as e:
-            print(f"❌ {fname}: {e}")
+            print(f" {fname}: {e}")
 
 # Cosine similarity
 if len(vectors) > 1:
@@ -60,4 +59,4 @@ for song in songs:
 with open("songs_similarity.json", "w") as f:
     json.dump(songs, f, indent=4)
 
-print(f"\n🎯 Saved similarities for {len(songs)} songs.")
+print(f"\n Saved similarities for {len(songs)} songs.")

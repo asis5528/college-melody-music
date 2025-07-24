@@ -25,8 +25,45 @@
         ]
     },
     {
+        "filename": "Bhawana.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9935
+            },
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9931
+            },
+            {
+                "filename": "James Blunt - Carry You Home.mp3",
+                "similarity": 0.9879
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9873
+            },
+            {
+                "filename": "James Blunt - Goodbye My Lover.mp3",
+                "similarity": 0.9866
+            }
+        ]
+    },
+    {
         "filename": "Chill Music by the fire.mp3",
         "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9834
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9799
+            },
+            {
+                "filename": "SoundHelix-Song-11.mp3",
+                "similarity": 0.9786
+            },
             {
                 "filename": "kudasaibeats - the girl i haven't met.mp3",
                 "similarity": 0.9725
@@ -34,18 +71,31 @@
             {
                 "filename": "lose-yourself.mp3",
                 "similarity": 0.9711
+            }
+        ]
+    },
+    {
+        "filename": "DUSMAN HEREKO HERAI  Durgesh Thapa.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9667
             },
             {
-                "filename": "James Blunt - Carry You Home.mp3",
-                "similarity": 0.9585
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9661
             },
             {
-                "filename": "James Blunt - Goodbye My Lover.mp3",
-                "similarity": 0.9546
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.966
             },
             {
-                "filename": "Stephen Sanchez - Be More.mp3",
-                "similarity": 0.9392
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9658
+            },
+            {
+                "filename": "SoundHelix-Song-13.mp3",
+                "similarity": 0.9638
             }
         ]
     },
@@ -57,20 +107,20 @@
                 "similarity": 0.9843
             },
             {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9834
+            },
+            {
                 "filename": "Harry Styles - Sign of the Times.mp3",
                 "similarity": 0.974
             },
             {
-                "filename": "Survivor - Eye Of The Tiger.mp3",
-                "similarity": 0.9663
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9728
             },
             {
-                "filename": "SoundHelix-Song-2.mp3",
-                "similarity": 0.9641
-            },
-            {
-                "filename": "tnt.mp3",
-                "similarity": 0.9636
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9714
             }
         ]
     },
@@ -78,24 +128,24 @@
         "filename": "Harry Styles - Sign of the Times.mp3",
         "similar_songs": [
             {
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.9856
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9856
+            },
+            {
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.9855
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9831
+            },
+            {
                 "filename": "Green Day - 21 Guns.mp3",
                 "similarity": 0.974
-            },
-            {
-                "filename": "Queen - We Will Rock You.mp3",
-                "similarity": 0.9581
-            },
-            {
-                "filename": "James Blunt - Carry You Home.mp3",
-                "similarity": 0.9561
-            },
-            {
-                "filename": "SoundHelix-Song-2.mp3",
-                "similarity": 0.9557
-            },
-            {
-                "filename": "Survivor - Eye Of The Tiger.mp3",
-                "similarity": 0.9132
             }
         ]
     },
@@ -107,20 +157,20 @@
                 "similarity": 0.9939
             },
             {
-                "filename": "Stephen Sanchez - Be More.mp3",
-                "similarity": 0.9793
+                "filename": "SoundHelix-Song-7.mp3",
+                "similarity": 0.9908
             },
             {
-                "filename": "James Blunt - Goodbye My Lover.mp3",
-                "similarity": 0.9725
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9888
             },
             {
-                "filename": "Chill Music by the fire.mp3",
-                "similarity": 0.9585
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9883
             },
             {
-                "filename": "Green Day - 21 Guns.mp3",
-                "similarity": 0.957
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9879
             }
         ]
     },
@@ -128,24 +178,24 @@
         "filename": "James Blunt - Goodbye My Lover.mp3",
         "similar_songs": [
             {
-                "filename": "kudasaibeats - the girl i haven't met.mp3",
-                "similarity": 0.9747
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9866
             },
             {
-                "filename": "James Blunt - Carry You Home.mp3",
-                "similarity": 0.9725
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9841
             },
             {
-                "filename": "Stephen Sanchez - Be More.mp3",
-                "similarity": 0.9688
+                "filename": "STAY.mp3",
+                "similarity": 0.981
             },
             {
-                "filename": "SoundHelix-Song-2.mp3",
-                "similarity": 0.9639
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9797
             },
             {
-                "filename": "Chill Music by the fire.mp3",
-                "similarity": 0.9546
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9752
             }
         ]
     },
@@ -153,30 +203,34 @@
         "filename": "kudasaibeats - the girl i haven't met.mp3",
         "similar_songs": [
             {
+                "filename": "SoundHelix-Song-11.mp3",
+                "similarity": 0.9919
+            },
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9866
+            },
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9779
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9765
+            },
+            {
                 "filename": "James Blunt - Goodbye My Lover.mp3",
                 "similarity": 0.9747
-            },
-            {
-                "filename": "Chill Music by the fire.mp3",
-                "similarity": 0.9725
-            },
-            {
-                "filename": "lose-yourself.mp3",
-                "similarity": 0.9638
-            },
-            {
-                "filename": "Stephen Sanchez - Be More.mp3",
-                "similarity": 0.9523
-            },
-            {
-                "filename": "James Blunt - Carry You Home.mp3",
-                "similarity": 0.9449
             }
         ]
     },
     {
         "filename": "levels.mp3",
         "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-17.mp3",
+                "similarity": 0.9872
+            },
             {
                 "filename": "Survivor - Eye Of The Tiger.mp3",
                 "similarity": 0.9849
@@ -192,10 +246,6 @@
             {
                 "filename": "stronger.mp3",
                 "similarity": 0.9747
-            },
-            {
-                "filename": "Queen - We Will Rock You.mp3",
-                "similarity": 0.9595
             }
         ]
     },
@@ -207,20 +257,20 @@
                 "similarity": 0.9793
             },
             {
+                "filename": "SoundHelix-Song-11.mp3",
+                "similarity": 0.9768
+            },
+            {
                 "filename": "stronger.mp3",
+                "similarity": 0.9762
+            },
+            {
+                "filename": "SoundHelix-Song-10.mp3",
                 "similarity": 0.9762
             },
             {
                 "filename": "Survivor - Eye Of The Tiger.mp3",
                 "similarity": 0.9757
-            },
-            {
-                "filename": "Chill Music by the fire.mp3",
-                "similarity": 0.9711
-            },
-            {
-                "filename": "kudasaibeats - the girl i haven't met.mp3",
-                "similarity": 0.9638
             }
         ]
     },
@@ -232,20 +282,20 @@
                 "similarity": 0.9202
             },
             {
-                "filename": "Nickelback - Burn It to the Ground.mp3",
-                "similarity": 0.8851
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.9059
             },
             {
-                "filename": "Titanium.mp3",
-                "similarity": 0.881
+                "filename": "Rani ghatai ma.mp3",
+                "similarity": 0.9057
             },
             {
-                "filename": "Back In Black.mp3",
-                "similarity": 0.864
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.8987
             },
             {
-                "filename": "Harry Styles - Sign of the Times.mp3",
-                "similarity": 0.8557
+                "filename": "SoundHelix-Song-13.mp3",
+                "similarity": 0.8948
             }
         ]
     },
@@ -282,20 +332,45 @@
                 "similarity": 0.9843
             },
             {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9781
+            },
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9628
+            },
+            {
                 "filename": "Survivor - Eye Of The Tiger.mp3",
                 "similarity": 0.9614
             },
             {
-                "filename": "levels.mp3",
-                "similarity": 0.9595
+                "filename": "SoundHelix-Song-17.mp3",
+                "similarity": 0.9603
+            }
+        ]
+    },
+    {
+        "filename": "Rani ghatai ma.mp3",
+        "similar_songs": [
+            {
+                "filename": "mgk  - vampire diaries.mp3",
+                "similarity": 0.9057
             },
             {
-                "filename": "Harry Styles - Sign of the Times.mp3",
-                "similarity": 0.9581
+                "filename": "Sum 41 - In Too Deep.mp3",
+                "similarity": 0.8339
             },
             {
-                "filename": "tnt.mp3",
-                "similarity": 0.9522
+                "filename": "SoundHelix-Song-13.mp3",
+                "similarity": 0.8245
+            },
+            {
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.8054
+            },
+            {
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.7952
             }
         ]
     },
@@ -325,27 +400,377 @@
         ]
     },
     {
+        "filename": "SoundHelix-Song-1.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9918
+            },
+            {
+                "filename": "SoundHelix-Song-2.mp3",
+                "similarity": 0.9916
+            },
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.989
+            },
+            {
+                "filename": "James Blunt - Carry You Home.mp3",
+                "similarity": 0.9883
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9873
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-10.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-11.mp3",
+                "similarity": 0.9973
+            },
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9937
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9931
+            },
+            {
+                "filename": "kudasaibeats - the girl i haven't met.mp3",
+                "similarity": 0.9866
+            },
+            {
+                "filename": "STAY.mp3",
+                "similarity": 0.9845
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-11.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9973
+            },
+            {
+                "filename": "kudasaibeats - the girl i haven't met.mp3",
+                "similarity": 0.9919
+            },
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9906
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9856
+            },
+            {
+                "filename": "STAY.mp3",
+                "similarity": 0.979
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-12.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.9983
+            },
+            {
+                "filename": "Harry Styles - Sign of the Times.mp3",
+                "similarity": 0.9855
+            },
+            {
+                "filename": "SoundHelix-Song-13.mp3",
+                "similarity": 0.9845
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9816
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9699
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-13.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.987
+            },
+            {
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.9845
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9779
+            },
+            {
+                "filename": "Harry Styles - Sign of the Times.mp3",
+                "similarity": 0.9687
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.968
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-14.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.9983
+            },
+            {
+                "filename": "SoundHelix-Song-13.mp3",
+                "similarity": 0.987
+            },
+            {
+                "filename": "Harry Styles - Sign of the Times.mp3",
+                "similarity": 0.9856
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9841
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9706
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-15.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9902
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9894
+            },
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9883
+            },
+            {
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.9841
+            },
+            {
+                "filename": "Green Day - 21 Guns.mp3",
+                "similarity": 0.9834
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-16.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.996
+            },
+            {
+                "filename": "SoundHelix-Song-2.mp3",
+                "similarity": 0.9943
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9902
+            },
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9897
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9852
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-17.mp3",
+        "similar_songs": [
+            {
+                "filename": "levels.mp3",
+                "similarity": 0.9872
+            },
+            {
+                "filename": "Survivor - Eye Of The Tiger.mp3",
+                "similarity": 0.9815
+            },
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9809
+            },
+            {
+                "filename": "stronger.mp3",
+                "similarity": 0.9758
+            },
+            {
+                "filename": "Sean Kingston - Beautiful Girls.mp3",
+                "similarity": 0.9715
+            }
+        ]
+    },
+    {
         "filename": "SoundHelix-Song-2.mp3",
         "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9951
+            },
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9943
+            },
             {
                 "filename": "James Blunt - Carry You Home.mp3",
                 "similarity": 0.9939
             },
             {
-                "filename": "Stephen Sanchez - Be More.mp3",
-                "similarity": 0.9776
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9916
             },
             {
-                "filename": "Green Day - 21 Guns.mp3",
-                "similarity": 0.9641
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9874
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-4.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9963
+            },
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.996
+            },
+            {
+                "filename": "SoundHelix-Song-2.mp3",
+                "similarity": 0.9951
+            },
+            {
+                "filename": "SoundHelix-Song-7.mp3",
+                "similarity": 0.9907
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.989
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-5.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9963
+            },
+            {
+                "filename": "SoundHelix-Song-7.mp3",
+                "similarity": 0.9931
+            },
+            {
+                "filename": "SoundHelix-Song-16.mp3",
+                "similarity": 0.9897
+            },
+            {
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9894
+            },
+            {
+                "filename": "SoundHelix-Song-2.mp3",
+                "similarity": 0.9874
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-6.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9937
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9935
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9918
+            },
+            {
+                "filename": "SoundHelix-Song-11.mp3",
+                "similarity": 0.9906
+            },
+            {
+                "filename": "STAY.mp3",
+                "similarity": 0.9885
+            }
+        ]
+    },
+    {
+        "filename": "SoundHelix-Song-7.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-5.mp3",
+                "similarity": 0.9931
+            },
+            {
+                "filename": "James Blunt - Carry You Home.mp3",
+                "similarity": 0.9908
+            },
+            {
+                "filename": "SoundHelix-Song-4.mp3",
+                "similarity": 0.9907
+            },
+            {
+                "filename": "SoundHelix-Song-2.mp3",
+                "similarity": 0.9862
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.986
+            }
+        ]
+    },
+    {
+        "filename": "STAY.mp3",
+        "similar_songs": [
+            {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9885
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9853
+            },
+            {
+                "filename": "SoundHelix-Song-10.mp3",
+                "similarity": 0.9845
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9833
             },
             {
                 "filename": "James Blunt - Goodbye My Lover.mp3",
-                "similarity": 0.9639
-            },
-            {
-                "filename": "Survivor - Eye Of The Tiger.mp3",
-                "similarity": 0.9639
+                "similarity": 0.981
             }
         ]
     },
@@ -353,24 +778,24 @@
         "filename": "Stephen Sanchez - Be More.mp3",
         "similar_songs": [
             {
+                "filename": "SoundHelix-Song-6.mp3",
+                "similarity": 0.9836
+            },
+            {
+                "filename": "SoundHelix-Song-1.mp3",
+                "similarity": 0.9804
+            },
+            {
+                "filename": "Bhawana.mp3",
+                "similarity": 0.9803
+            },
+            {
+                "filename": "STAY.mp3",
+                "similarity": 0.98
+            },
+            {
                 "filename": "James Blunt - Carry You Home.mp3",
                 "similarity": 0.9793
-            },
-            {
-                "filename": "SoundHelix-Song-2.mp3",
-                "similarity": 0.9776
-            },
-            {
-                "filename": "James Blunt - Goodbye My Lover.mp3",
-                "similarity": 0.9688
-            },
-            {
-                "filename": "stronger.mp3",
-                "similarity": 0.9576
-            },
-            {
-                "filename": "kudasaibeats - the girl i haven't met.mp3",
-                "similarity": 0.9523
             }
         ]
     },
@@ -394,8 +819,8 @@
                 "similarity": 0.9762
             },
             {
-                "filename": "levels.mp3",
-                "similarity": 0.9747
+                "filename": "SoundHelix-Song-17.mp3",
+                "similarity": 0.9758
             }
         ]
     },
@@ -440,12 +865,12 @@
                 "similarity": 0.9849
             },
             {
-                "filename": "uptown-funk-ft-bruno-mars.mp3",
-                "similarity": 0.9813
+                "filename": "SoundHelix-Song-17.mp3",
+                "similarity": 0.9815
             },
             {
-                "filename": "lose-yourself.mp3",
-                "similarity": 0.9757
+                "filename": "uptown-funk-ft-bruno-mars.mp3",
+                "similarity": 0.9813
             }
         ]
     },
@@ -490,12 +915,12 @@
                 "similarity": 0.881
             },
             {
-                "filename": "Nickelback - Burn It to the Ground.mp3",
-                "similarity": 0.8524
+                "filename": "SoundHelix-Song-14.mp3",
+                "similarity": 0.8787
             },
             {
-                "filename": "Green Day - 21 Guns.mp3",
-                "similarity": 0.8501
+                "filename": "SoundHelix-Song-12.mp3",
+                "similarity": 0.873
             }
         ]
     },
@@ -515,12 +940,12 @@
                 "similarity": 0.9351
             },
             {
-                "filename": "stronger.mp3",
-                "similarity": 0.9132
+                "filename": "SoundHelix-Song-15.mp3",
+                "similarity": 0.9165
             },
             {
-                "filename": "levels.mp3",
-                "similarity": 0.9129
+                "filename": "stronger.mp3",
+                "similarity": 0.9132
             }
         ]
     },
@@ -544,8 +969,8 @@
                 "similarity": 0.9781
             },
             {
-                "filename": "lose-yourself.mp3",
-                "similarity": 0.9555
+                "filename": "SoundHelix-Song-17.mp3",
+                "similarity": 0.967
             }
         ]
     }
