@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { loadCustomSongs, saveCustomSongs } from './data';
 
-const emptySong = { id: '', title: '', artist: '', genre: '', moods: '', url: '', cover: '' };
+const emptySong = { id: '', title: '', artist: '', genre: '', moods: '', url: '' };
 
 export default function AdminPanel({ onBack }) {
   const [songs, setSongs] = useState(loadCustomSongs());
@@ -21,7 +21,8 @@ export default function AdminPanel({ onBack }) {
     if (!form.id || !form.title || !form.url) return;
     const newSong = {
       ...form,
-      moods: form.moods.split(',').map(m => m.trim()).filter(Boolean)
+      moods: form.moods.split(',').map(m => m.trim()).filter(Boolean),
+      cover: `https://placehold.co/300x300/111111/ffffff?text=${encodeURIComponent(form.title)}`
     };
     setSongs([...songs, newSong]);
     setForm(emptySong);
@@ -40,7 +41,7 @@ export default function AdminPanel({ onBack }) {
       </button>
 
       <form onSubmit={addSong} className="space-y-2 max-w-md mt-4">
-        {['id','title','artist','genre','moods','url','cover'].map(field => (
+        {['id','title','artist','genre','moods','url'].map(field => (
           <input
             key={field}
             name={field}
