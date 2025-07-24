@@ -1,7 +1,7 @@
 
 
 // --- Expanded Song Library ---
-export const allSongs = [
+export const defaultSongs = [
     // Happy & Energetic
     /*
     { id: "S001", title: "Walking on Sunshine", artist: "The Good Vibes", genre: "Pop", moods: ['happy', 'energetic', 'upbeat'], url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3", cover: "https://placehold.co/300x300/f9d423/000000?text=Sunshine" },
@@ -261,6 +261,23 @@ export const allSongs = [
         cover: "https://placehold.co/300x300/f1c40f/000000?text=Funk"
     }
 
-
     // More variety
-    ];
+];
+
+export const loadCustomSongs = () => {
+    const data = localStorage.getItem('melody-custom-songs');
+    if (!data) return [];
+    try {
+        return JSON.parse(data);
+    } catch {
+        return [];
+    }
+};
+
+export const saveCustomSongs = (songs) => {
+    localStorage.setItem('melody-custom-songs', JSON.stringify(songs));
+};
+
+export const getAllSongs = () => {
+    return [...defaultSongs, ...loadCustomSongs()];
+};
