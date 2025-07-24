@@ -1,16 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { loadCustomSongs, saveCustomSongs } from './data';
 
-const emptySong = { id: '', title: '', artist: '', genre: '', moods: '', url: '', cover: '' };
+const emptySong = { title: '', artist: '', genre: '', moods: '', url: '', cover: '' };
 
 export default function AdminPanel({ onBack }) {
   const [songs, setSongs] = useState(loadCustomSongs());
   const [form, setForm] = useState(emptySong);
+  const [idCounter, setIdCounter] = useState(() => {
+    const stored = localStorage.getItem('melody-custom-id-counter');
+    const parsed = stored ? parseInt(stored, 10) : NaN;
+    return Number.isNaN(parsed) ? songs.length : parsed;
+  });
 
   useEffect(() => {
     saveCustomSongs(songs);
     window.dispatchEvent(new Event('storage')); // notify other tabs/components
   }, [songs]);
+
+  useEffect(() => {
+    localStorage.setItem('melody-custom-id-counter', idCounter.toString());
+  }, [idCounter]);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -18,12 +27,14 @@ export default function AdminPanel({ onBack }) {
 
   const addSong = (e) => {
     e.preventDefault();
-    if (!form.id || !form.title || !form.url) return;
+    if (!form.title || !form.url) return;
     const newSong = {
       ...form,
+      id: `C${String(idCounter).padStart(3, '0')}`,
       moods: form.moods.split(',').map(m => m.trim()).filter(Boolean)
     };
     setSongs([...songs, newSong]);
+    setIdCounter(idCounter + 1);
     setForm(emptySong);
   };
 
@@ -40,7 +51,7 @@ export default function AdminPanel({ onBack }) {
       </button>
 
       <form onSubmit={addSong} className="space-y-2 max-w-md mt-4">
-        {['id','title','artist','genre','moods','url','cover'].map(field => (
+        {['title','artist','genre','moods','url','cover'].map(field => (
           <input
             key={field}
             name={field}
