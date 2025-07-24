@@ -1,0 +1,73 @@
+import React, { useState, useEffect } from 'react';
+import { loadCustomSongs, saveCustomSongs } from './data';
+
+const emptySong = { id: '', title: '', artist: '', genre: '', moods: '', url: '', cover: '' };
+
+export default function AdminPanel({ onBack }) {
+  const [songs, setSongs] = useState(loadCustomSongs());
+  const [form, setForm] = useState(emptySong);
+
+  useEffect(() => {
+    saveCustomSongs(songs);
+    window.dispatchEvent(new Event('storage')); // notify other tabs/components
+  }, [songs]);
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const addSong = (e) => {
+    e.preventDefault();
+    if (!form.id || !form.title || !form.url) return;
+    const newSong = {
+      ...form,
+      moods: form.moods.split(',').map(m => m.trim()).filter(Boolean)
+    };
+    setSongs([...songs, newSong]);
+    setForm(emptySong);
+  };
+
+  const removeSong = (index) => {
+    const updated = songs.filter((_, i) => i !== index);
+    setSongs(updated);
+  };
+
+  return (
+    <div className="p-6 space-y-6">
+      <h2 className="text-2xl font-bold">Admin Panel</h2>
+      <button onClick={onBack} className="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded">
+        Back
+      </button>
+
+      <form onSubmit={addSong} className="space-y-2 max-w-md mt-4">
+        {['id','title','artist','genre','moods','url','cover'].map(field => (
+          <input
+            key={field}
+            name={field}
+            value={form[field]}
+            onChange={handleChange}
+            placeholder={field.charAt(0).toUpperCase() + field.slice(1)}
+            className="w-full px-3 py-2 bg-gray-800 rounded"
+          />
+        ))}
+        <button type="submit" className="bg-cyan-500 hover:bg-cyan-400 px-4 py-2 rounded text-gray-900 font-semibold">
+          Add Song
+        </button>
+      </form>
+
+      <div>
+        <h3 className="text-xl font-semibold mb-2">Custom Songs</h3>
+        <ul className="space-y-2">
+          {songs.map((s, idx) => (
+            <li key={s.id} className="flex justify-between items-center bg-gray-800 p-2 rounded">
+              <span>{s.title} - {s.artist}</span>
+              <button onClick={() => removeSong(idx)} className="bg-red-600 hover:bg-red-500 text-white px-2 py-1 rounded">
+                Remove
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}

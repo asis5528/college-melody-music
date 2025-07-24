@@ -1,6 +1,7 @@
 ﻿import React, { useState, useRef, useEffect } from 'react';
 import AuthForms from './components/auth';
 import { HomePage } from './components/HomePage';
+import AdminPanel from './components/AdminPanel';
 
 
 
@@ -35,6 +36,7 @@ const LoginScreen = ({ onLogin }) => {
 
 export default function App() {
     const [user, setUser] = useState(null);
+    const [view, setView] = useState('home');
 
     useEffect(() => {
         function handleLoggedInUser(){
@@ -49,16 +51,24 @@ export default function App() {
     const handleLogin = (newUser) => {
         sessionStorage.setItem('melody-user', JSON.stringify(newUser));
         setUser(newUser);
+        setView('home');
     };
 
     const handleLogout = () => {
         sessionStorage.removeItem('melody-user');
         setUser(null);
+        setView('home');
     };
 
     return (
         <div className="bg-gray-900 text-white min-h-screen font-sans">
-            {!user ? <LoginScreen onLogin={handleLogin} /> : <HomePage user={user} onLogout={handleLogout} />}
+            {!user && <LoginScreen onLogin={handleLogin} />}
+            {user && view === 'home' && (
+                <HomePage user={user} onLogout={handleLogout} onManageSongs={() => setView('admin')} />
+            )}
+            {user && view === 'admin' && (
+                <AdminPanel onBack={() => setView('home')} />
+            )}
         </div>
     );
 }
